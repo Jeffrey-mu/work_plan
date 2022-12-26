@@ -18,6 +18,9 @@ function handleAdd() {
 function isTrue() {
   return localStorage.getItem('data_info')
 }
+function handleDel(index) {
+  data_info.value.splice(index, 1)
+}
 onMounted(() => {
   if (isTrue())
   data_info.value = JSON.parse(localStorage.getItem('data_info'))
@@ -33,7 +36,7 @@ onMounted(() => {
 <template v-for="item, index in data_info">
   <div v-if="index" >
     {{ index }}、<input mt-3 b p-1 type="text" v-model="data_info[index]">
-    <button btn mx-2 @click="handleAdd">del</button>
+    <button btn mx-2 @click="handleDel(index)">del</button>
   </div>
 </template>
 
