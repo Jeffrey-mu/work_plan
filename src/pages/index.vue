@@ -1,62 +1,52 @@
-<script setup lang="ts">
-const user = useUserStore()
-const name = $ref(user.savedName)
-
-const router = useRouter()
-const go = () => {
-  if (name)
-    router.push(`/hi/${encodeURIComponent(name)}`)
+<script lang="ts" setup>
+const data_info = ref([
+  `${ new Date().getMonth() + 1 + '.'+ new Date().getDate()}工作计划`,
+  '亚马逊账号日常维护',
+  'dv优化，上素材和订单项',
+  '亚马逊账号日常维护'
+])
+function copyText() {
+  window.navigator.clipboard.writeText(data_info.value.map((item, index) =>
+       index? index +'、' + item : item
+  ).join('\n')).then((_res) => {
+    localStorage.setItem('data_info', JSON.stringify(data_info.value))
+  })
 }
-
-const { t } = useI18n()
+function handleAdd() {
+  data_info.value.push('')
+}
+function isTrue() {
+  return localStorage.getItem('data_info')
+}
+onMounted(() => {
+  if (isTrue())
+  data_info.value = JSON.parse(localStorage.getItem('data_info'))
+})
 </script>
-
 <template>
-  <div>
-    <div text-4xl>
-      <div i-carbon-campsite inline-block />
-    </div>
-    <p>
-      <a rel="noreferrer" href="https://github.com/Jeffrey-mu/vitesse" target="_blank">
-        Vitesse
-      </a>
-    </p>
-    <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
-    </p>
-
-    <div py-4 />
-
-    <input
-      id="input"
-      v-model="name"
-      :placeholder="t('intro.whats-your-name')"
-      :aria-label="t('intro.whats-your-name')"
-      type="text"
-      autocomplete="false"
-      p="x4 y2"
-      w="250px"
-      text="center"
-      bg="transparent"
-      border="~ rounded gray-200 dark:gray-700"
-      outline="none active:none"
-      @keydown.enter="go"
-    >
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
-
-    <div>
-      <button
-        btn m-3 text-sm
-        :disabled="!name"
-        @click="go"
-      >
-        {{ t('button.go') }}
-      </button>
-    </div>
+<div w-100 ma text-left class="box">
+<div v-for="item,index in data_info" >
+  {{ index ? index + '、' : ''}}{{ item }}
+</div>
+<hr my-2>
+<h2>编辑区域</h2>
+<template v-for="item, index in data_info">
+  <div v-if="index" >
+    {{ index }}、<input mt-3 b p-1 type="text" v-model="data_info[index]">
+    <button btn mx-2 @click="handleAdd">del</button>
   </div>
 </template>
 
-<route lang="yaml">
-meta:
-  layout: home
-</route>
+<div>
+  <button btn @click="copyText" m-2>copy</button>
+  <button btn @click="handleAdd">add</button>
+</div>
+</div>
+</template>
+<style>
+@media screen and (max-width: 900px) {
+  .box {
+    width: 100%;
+  }
+}
+</style>

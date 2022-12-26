@@ -1,23 +1,23 @@
 
 <p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/154486817-f86b8f20-5463-4122-b6e9-930622e757f2.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
+  <img src='https://user-images.githubusercontent.com/11247099/154486817-f86b8f20-5463-4122-b6e9-930622e757f2.png' alt='work_plan - Opinionated Vite Starter Template' width='600'/>
 </p>
 
 <p align='center'>
-快速地<sup><em>Vitesse</em></sup> 创建 Web 应用
+快速地<sup><em>work_plan</em></sup> 创建 Web 应用
 <br>
 </p>
 
 <br>
 
 <p align='center'>
-<a href="https://vitesse.netlify.app/">在线 Demo</a>
+<a href="https://work_plan.netlify.app/">在线 Demo</a>
 </p>
 
 <br>
 
 <p align='center'>
-<a href="https://github.com/Jeffrey-mu/vitesse/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="https://github.com/Jeffrey-mu/work_plan/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
 
 <br>
@@ -117,10 +117,10 @@
 
 ###### 官方
 
-- [vitesse-lite](https://github.com/Jeffrey-mu/vitesse-lite) - Vitesse 的轻量版本
-- [vitesse-nuxt3](https://github.com/Jeffrey-mu/vitesse-nuxt3) - Vitesse 的 Nuxt 3 版本
-- [vitesse-nuxt-bridge](https://github.com/Jeffrey-mu/vitesse-nuxt-bridge) - Vitesse 的 Nuxt2 桥接版本
-- [vitesse-webext](https://github.com/Jeffrey-mu/vitesse-webext) - 开箱即用的浏览器扩展 vite 模板
+- [work_plan-lite](https://github.com/Jeffrey-mu/work_plan-lite) - work_plan 的轻量版本
+- [work_plan-nuxt3](https://github.com/Jeffrey-mu/work_plan-nuxt3) - work_plan 的 Nuxt 3 版本
+- [work_plan-nuxt-bridge](https://github.com/Jeffrey-mu/work_plan-nuxt-bridge) - work_plan 的 Nuxt2 桥接版本
+- [work_plan-webext](https://github.com/Jeffrey-mu/work_plan-webext) - 开箱即用的浏览器扩展 vite 模板
 
 ###### 社区
 
@@ -128,19 +128,19 @@
 
 ## 现在可以试试!
 
-> Vitesse 需要 Node 版本 >=14
+> work_plan 需要 Node 版本 >=14
 
 ### GitHub 模板
 
-[使用这个模板创建仓库](https://github.com/Jeffrey-mu/vitesse/generate).
+[使用这个模板创建仓库](https://github.com/Jeffrey-mu/work_plan/generate).
 
 ### 克隆到本地
 
 如果您更喜欢使用更干净的 git 历史记录手动执行此操作
 
 ```bash
-npx degit antfu/vitesse my-vitesse-app
-cd my-vitesse-app
+npx degit antfu/work_plan my-work_plan-app
+cd my-work_plan-app
 pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 ```
 

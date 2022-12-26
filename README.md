@@ -1,21 +1,21 @@
 <p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/154486817-f86b8f20-5463-4122-b6e9-930622e757f2.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
+  <img src='https://user-images.githubusercontent.com/11247099/154486817-f86b8f20-5463-4122-b6e9-930622e757f2.png' alt='work_plan - Opinionated Vite Starter Template' width='600'/>
 </p>
 
 <p align='center'>
-Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
-</p>
-
-<br>
-
-<p align='center'>
-<a href="https://vitesse.netlify.app/">Live Demo</a>
+Mocking up web app with <b>work_plan</b><sup><em>(speed)</em></sup><br>
 </p>
 
 <br>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/Jeffrey-mu/vitesse/blob/main/README.zh-CN.md">简体中文</a>
+<a href="https://work_plan.netlify.app/">Live Demo</a>
+</p>
+
+<br>
+
+<p align='center'>
+<b>English</b> | <a href="https://github.com/Jeffrey-mu/work_plan/blob/main/README.zh-CN.md">简体中文</a>
 <!-- Contributors: Thanks for geting interested, however we DON'T accept new transitions to the README, thanks. -->
 </p>
 
@@ -119,38 +119,38 @@ As this template is strongly opinionated, the following provides a curated list 
 
 ###### Official
 
-- [vitesse-lite](https://github.com/Jeffrey-mu/vitesse-lite) - Lightweight version of Vitesse
-- [vitesse-nuxt3](https://github.com/Jeffrey-mu/vitesse-nuxt3) - Vitesse for Nuxt 3
-- [vitesse-nuxt-bridge](https://github.com/Jeffrey-mu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
-- [vitesse-webext](https://github.com/Jeffrey-mu/vitesse-webext) - WebExtension Vite starter template
+- [work_plan-lite](https://github.com/Jeffrey-mu/work_plan-lite) - Lightweight version of work_plan
+- [work_plan-nuxt3](https://github.com/Jeffrey-mu/work_plan-nuxt3) - work_plan for Nuxt 3
+- [work_plan-nuxt-bridge](https://github.com/Jeffrey-mu/work_plan-nuxt-bridge) - work_plan for Nuxt 2 with Bridge
+- [work_plan-webext](https://github.com/Jeffrey-mu/work_plan-webext) - WebExtension Vite starter template
 
 ###### Community
 
-- [vitesse-ssr-template](https://github.com/frandiox/vitesse-ssr-template) by [@frandiox](https://github.com/frandiox) - Vitesse with SSR
-- [vitespa](https://github.com/ctholho/vitespa) by [@ctholho](https://github.com/ctholho) - Like Vitesse but without SSG/SSR
-- [vitailse](https://github.com/zynth17/vitailse) by [@zynth17](https://github.com/zynth17) - Like Vitesse but with TailwindCSS
-- [vitesse-modernized-chrome-ext](https://github.com/xiaoluoboding/vitesse-modernized-chrome-ext) by [@xiaoluoboding](https://github.com/xiaoluoboding) - ⚡️ Modernized Chrome Extension Manifest V3 Vite Starter Template
-- [vitesse-stackter-clean-architect](https://github.com/shamscorner/vitesse-stackter-clean-architect) by [@shamscorner](https://github.com/shamscorner) - A modular clean architecture pattern in vitesse template
-- [vitesse-enterprise](https://github.com/FranciscoKloganB/vitesse-enterprise) by [@FranciscoKloganB](https://github.com/FranciscoKloganB) - Consistent coding styles regardless of team-size.
-- [vitecamp](https://github.com/nekobc1998923/vitecamp) by [@nekobc1998923](https://github.com/nekobc1998923) - Like Vitesse but without SSG/SSR/File based routing, includes Element Plus
-- [vitesse-lite-react](https://github.com/lxy-yz/vitesse-lite-react) by [@lxy-yz](https://github.com/lxy-yz) - vitesse-lite React fork
+- [work_plan-ssr-template](https://github.com/frandiox/work_plan-ssr-template) by [@frandiox](https://github.com/frandiox) - work_plan with SSR
+- [vitespa](https://github.com/ctholho/vitespa) by [@ctholho](https://github.com/ctholho) - Like work_plan but without SSG/SSR
+- [vitailse](https://github.com/zynth17/vitailse) by [@zynth17](https://github.com/zynth17) - Like work_plan but with TailwindCSS
+- [work_plan-modernized-chrome-ext](https://github.com/xiaoluoboding/work_plan-modernized-chrome-ext) by [@xiaoluoboding](https://github.com/xiaoluoboding) - ⚡️ Modernized Chrome Extension Manifest V3 Vite Starter Template
+- [work_plan-stackter-clean-architect](https://github.com/shamscorner/work_plan-stackter-clean-architect) by [@shamscorner](https://github.com/shamscorner) - A modular clean architecture pattern in work_plan template
+- [work_plan-enterprise](https://github.com/FranciscoKloganB/work_plan-enterprise) by [@FranciscoKloganB](https://github.com/FranciscoKloganB) - Consistent coding styles regardless of team-size.
+- [vitecamp](https://github.com/nekobc1998923/vitecamp) by [@nekobc1998923](https://github.com/nekobc1998923) - Like work_plan but without SSG/SSR/File based routing, includes Element Plus
+- [work_plan-lite-react](https://github.com/lxy-yz/work_plan-lite-react) by [@lxy-yz](https://github.com/lxy-yz) - work_plan-lite React fork
 - [vide](https://github.com/Nico-Mayer/vide) by [@nico-mayer](https://github.com/Nico-Mayer) - Vite superlight Beginner Starter Template
 
 ## Try it now!
 
-> Vitesse requires Node >=14
+> work_plan requires Node >=14
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/Jeffrey-mu/vitesse/generate).
+[Create a repo from this template on GitHub](https://github.com/Jeffrey-mu/work_plan/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse my-vitesse-app
-cd my-vitesse-app
+npx degit antfu/work_plan my-work_plan-app
+cd my-work_plan-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
@@ -193,16 +193,16 @@ Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along
 
 ### Docker Production Build
 
-First, build the vitesse image by opening the terminal in the project's root directory.
+First, build the work_plan image by opening the terminal in the project's root directory.
 
 ```bash
-docker buildx build . -t vitesse:latest
+docker buildx build . -t work_plan:latest
 ```
 
 Run the image and specify port mapping with the `-p` flag.
 
 ```bash
-docker run --rm -it -p 8080:80 vitesse:latest
+docker run --rm -it -p 8080:80 work_plan:latest
 ```
 
 ## Why
