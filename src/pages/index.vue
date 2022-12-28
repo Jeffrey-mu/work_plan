@@ -7,7 +7,7 @@ const data_info = ref([
 ])
 function copyText() {
   window.navigator.clipboard.writeText(data_info.value.map((item, index) =>
-       index? index +'、' + item : item
+    index ? index + '、' + item : `${new Date().getMonth() + 1 + '.' + new Date().getDate()}工作计划`
   ).join('\n')).then((_res) => {
     localStorage.setItem('data_info', JSON.stringify(data_info.value))
   })
