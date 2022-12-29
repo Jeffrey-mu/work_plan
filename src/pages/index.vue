@@ -7,7 +7,7 @@ const data_info = ref([
 ])
 function copyText() {
   window.navigator.clipboard.writeText(data_info.value.map((item, index) =>
-    index ? index + '、' + item : `${new Date().getMonth() + 1 + '.' + new Date().getDate()}工作计划`
+    index ? index + '、' + item : item
   ).join('\n')).then((_res) => {
     localStorage.setItem('data_info', JSON.stringify(data_info.value))
   })
@@ -24,6 +24,7 @@ function handleDel(index) {
 onMounted(() => {
   if (isTrue())
   data_info.value = JSON.parse(localStorage.getItem('data_info'))
+  data_info.value[0] = `${new Date().getMonth() + 1 + '.' + new Date().getDate()}工作计划`
 })
 </script>
 <template>
